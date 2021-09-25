@@ -1,0 +1,141 @@
+    @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+        
+    *{
+        font-family: 'Gemunu Libre', sans-serif !important;
+    }
+
+    /* Seção body */
+        body{
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background-image: url(../imagens/fundo-gif/fundo-curso.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+    /* Fim Seção body */
+
+    h1, h2{
+        color: #fff;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    a:hover{
+        text-decoration: underline;
+        color: rgb(221, 7, 203)
+    }
+
+    /* Seção Fundo Cinza */
+        .center{
+            text-align: center;
+            width: 960px;
+            margin: auto;
+            padding: 10px 20px;
+            border: 4px solid rgb(126, 4, 156);
+            background-color: rgb(39, 39, 39, 0.95);
+        }
+        .espaco{
+            margin: 20px 20px 130px 20px;
+        }
+    /* Seção Fim Fundo Cinza */
+
+    /* Seção Button contato*/
+        .button {
+            display: inline-block;
+            border-radius: 4px;
+            background-color: #000000;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 22px;
+            padding: 20px;
+            width: 120px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
+        
+        .button:hover{
+            background-color: rgb(70, 3, 138);
+        }
+
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .button:hover span {
+            padding-right: 25px;
+        }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+    /* Fim Seção Button contato*/
+
+    
+    /* Seção Matheus Maia Alvarez */
+        .anima{
+            font-size: 40px;
+            display: inline-block;
+            border-right: 2px solid rgb(255, 255, 255);
+            padding-right: 3px;
+            max-width: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: pisca normal infinite 0.8s, escrever normal 5s steps(55) both;
+        }
+
+        @keyframes pisca{
+            100%{
+                border-right-color: transparent;
+            }
+        }
+        @keyframes escrever{
+            100%{
+                max-width: 100%;
+            }
+        }
+    /* Fim Seção Matheus Maia Alvarez */
+
+    /* Seção Matheus Maia Alvarez */
+    .anima{
+        font-size: 40px;
+        display: inline-block;
+        border-right: 2px solid rgb(255, 255, 255);
+        padding-right: 3px;
+        max-width: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: pisca normal infinite 0.8s, escrever normal 5s steps(55) both;
+    }
+
+    @keyframes pisca{
+        100%{
+            border-right-color: transparent;
+        }
+    }
+    @keyframes escrever{
+        100%{
+            max-width: 100%;
+        }
+    }
+/* Fim Seção Matheus Maia Alvarez */

@@ -1,0 +1,142 @@
+    @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+
+    *{
+        font-family: 'Gemunu Libre', sans-serif !important;
+    }
+
+    /* Seção Body */
+        body{
+            padding: 0;
+            margin: 0;
+            border: 0;
+            box-sizing: border-box;
+            background-image: url(../imagens/fundo-gif/fundo-contato.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+    /* Fim seção Body */
+
+    /* Seção textos */
+        h2{
+            display: inline-block;
+            margin: 0px 6px;
+        }
+
+        a, h1{
+            text-decoration: none;
+            color: #fff;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: rgb(221, 7, 203);
+        }
+    /* Fim seção textos */
+
+    .linha{
+        margin: 15px;
+    }
+
+    /* Seção Fundo Cinza */
+        .center{
+            text-align: center;
+            width: 960px;
+            margin: auto;
+            padding: 10px 20px;
+            border: 4px solid rgb(126, 4, 156);
+            background-color: rgb(39, 39, 39, 0.95);
+        }
+
+        .espaco{
+            margin: 20px 20px 130px 20px;
+        }
+    /* Fim seção funco cinza */
+
+    /* Seção Button Menu*/
+        .button {
+            display: inline-block;
+            border-radius: 4px;
+            background-color: #000000;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 22px;
+            padding: 20px;
+            width: 120px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .button:hover{
+            background-color: rgb(70, 3, 138);
+        }
+
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .button:hover span {
+            padding-right: 25px;
+        }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+    /* Fim Seção Button contato*/
+
+    /* Animação pisca */
+        .pisca{
+            width: 10px;
+            height: 10px;
+            animation: pisca 0.5s infinite;
+        }
+
+        @keyframes pisca{
+        0%{
+            opacity: 0.1;
+        }
+        100%{
+            opacity: 100%;
+        }
+        }
+
+    /* Seção animação escrita */
+        .anima{
+            font-size: 40px;
+            display: inline-block;
+            border-right: 2px solid rgb(255, 255, 255);
+            padding-right: 3px;
+            max-width: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: pis normal infinite 0.8s, escrever normal 5s steps(55) both;
+        }
+
+        @keyframes pis{
+        100%{
+            border-right-color: transparent;
+        }
+        }
+        
+        @keyframes escrever{
+        100%{
+            max-width: 100%;
+        }
+        }
+    /* Fim Seção animação escrito*/
