@@ -7,7 +7,7 @@
 
 https://matheusalvarez.github.io/Pagina-Curriculo/
 
-Primeiro porjeto de avaliação do Senai. Desenvolvido em HTML e CSS de acordo com o tema: "Currículo"
+Primeiro projeto de avaliação do Senai. Desenvolvido em HTML e CSS de acordo com o tema: "Currículo"
 
 
 ## Página Web Inicial
