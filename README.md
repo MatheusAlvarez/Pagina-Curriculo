@@ -2,22 +2,22 @@
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/MatheusAlvarez/Pagina-Curriculo/blob/main/LICENSE) 
 
-# Sobre o projeto
+# About the project
 
 
 https://matheusalvarez.github.io/Pagina-Curriculo/
 
-Primeiro projeto de avaliação do Senai. Desenvolvido em HTML e CSS de acordo com o tema: "Currículo"
+First Senai evaluation project. Developed in HTML and CSS according to the theme: "Curriculum"
 
 
-## Página Web Inicial
+## Home Web Page
 ![GK1](https://github.com/MatheusAlvarez/Pagina-Curriculo/blob/main/_assets/Curr1.PNG)
 
-# Tecnologias utilizadas
+# Technologies used
 - HTML
 - CSS
 
-# Autor
+# Author
 
 Matheus Maia Alvarez
 
