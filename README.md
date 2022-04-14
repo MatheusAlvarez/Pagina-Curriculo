@@ -4,7 +4,6 @@
 
 # About the project
 
-
 https://matheusalvarez.github.io/Pagina-Curriculo/
 
 First Senai evaluation project. Developed in HTML and CSS according to the theme: "Curriculum"
